@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/dark-triangles.png);
+    display: flex;
+    align-items: center;
+}
+
+#cell__field {
+    background-color: red;
+    border: 5px solid black;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#cell__field:hover {
+    border-color: grey;
+}
+
+button.menu-list__item {
+    width: 250px;
+    background-color: transparent;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    float: left;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+input#inpRange {
+    float: left;
+    margin-left: 35%;
+
+}
+
+a.menu-list__item {
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    color: black;
+    margin-left: 55px;
+
+}
